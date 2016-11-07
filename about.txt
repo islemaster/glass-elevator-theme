@@ -1,0 +1,5 @@
+Theme name:    Glass Elevator Theme
+Description:   Custom theme for GlassElevatorArts.com
+Author name:   Brad Buchanan
+Author site:   http://bradleycbuchanan.com
+License:       MIT

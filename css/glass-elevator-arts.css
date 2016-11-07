@@ -1,0 +1,81 @@
+body {
+  background-image: url('../img/backdrop.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+}
+
+header {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: "Abril Fatface", sans-serif;
+  color: #a49870;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36pt;
+  font-weight: 400;
+}
+
+header h2 {
+  margin: -22px 0 0 79px;
+  font-size: 24pt;
+  font-weight: 400;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+nav a {
+  flex: 0 0 auto;
+  position: relative;
+  display: block;
+  height: 22vh;
+  width: 22vh;
+  border-radius: 50%;
+  border: double 10px #aaa;
+  /*overflow: hidden;*/
+}
+
+nav img {
+  position: absolute;
+  width: 22vh;
+  border-radius: 50%;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-transition: -webkit-filter 1s, filter 1s;
+  transition: -webkit-filter 1s, filter 1s;
+}
+
+nav span {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  line-height: 22vh;
+  text-align: center;
+  color: white;
+  font-size: 6vh;
+  font-family: "Abril Fatface", sans-serif;
+  text-shadow: 0px 1px 2px black;
+}
+
+nav a:hover img {
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+}
