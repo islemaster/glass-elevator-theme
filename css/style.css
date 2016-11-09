@@ -63,8 +63,13 @@ h1 {
 	overflow: hidden;
 	padding: 20px 35px;
 
-	background: #fff;
 	border-bottom: 1px solid rgba(22,36,54,.1);
+	
+  background-image: url('../img/backdrop.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
 }
 	#top a {
 		float: left;
@@ -215,7 +220,7 @@ h1 {
 	color: #98a2b1;
 	font-size: 14px;
 	font-style: italic;
-	
+
 	white-space: nowrap;
 }
 	.footnote {
