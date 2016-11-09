@@ -6,6 +6,7 @@
 
 		<meta name="description" content="<?php echo site_description(); ?>">
 
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 		<link rel="stylesheet" href="<?php echo theme_url('/css/reset.css'); ?>">
 		<link rel="stylesheet" href="<?php echo theme_url('/css/style.css'); ?>">
 		<link rel="stylesheet" href="<?php echo theme_url('/css/small.css'); ?>" media="(max-width: 400px)">
