@@ -81,6 +81,9 @@ h1 {
 	  font-family: "Abril Fatface", sans-serif;
 		color: white;
 	}
+	#top #logo {
+		font-size: 25px;
+	}
 		#top #logo:hover, #top ul a:hover, #top ul .active a, .posts .items li:first-child h2 a:hover, p a:hover {
 			color: #4171b1;
 		}
@@ -94,7 +97,7 @@ h1 {
 		}
 		#top ul a {
 			display: inline-block;
-			color: #555f6d;
+			color: white;
 		}
 		#top ul img {
 			display: inline-block;
